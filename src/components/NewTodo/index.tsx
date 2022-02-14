@@ -12,7 +12,7 @@ const NewTodo: React.FC = () => {
     event.preventDefault();
 
     const enteredText = todoTextInputRef.current!.value;
-
+    
     if (enteredText.trim().length === 0) {
       return;
     }
@@ -24,7 +24,7 @@ const NewTodo: React.FC = () => {
   return (
     <form onSubmit={submitHandler} className={classes.form}>
       <label htmlFor='text'>Todo text</label>
-      <input type='text' id='text' ref={todoTextInputRef} placeholder="Entered task"/>
+      <input type='text' id='text' ref={todoTextInputRef} placeholder="Entered task" />
       <button>Add Todo</button>
     </form>
   );
