@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import styles from 'components/NewTodo/styles.module.css'
 
-const NewTodo = () => {
+const NewTodo: React.FC <{ onAddTodo: (text: string) => void }> = (props) => {
     const todoTextInputRef = useRef<HTMLInputElement>(null)
 
     const submitHandler = (e: React.FormEvent) => {
@@ -11,6 +11,8 @@ const NewTodo = () => {
         if (enteredText.trim().length === 0) {
             return;
         }
+
+        props.onAddTodo(enteredText);
     }
 
     return (
