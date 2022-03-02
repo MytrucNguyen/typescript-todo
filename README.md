@@ -1,4 +1,8 @@
-<a href='https://typescript-todoapp-project.netlify.app/'>Demo</a>
+<a href='https://typescript-todoapp-project.netlify.app/'>Demo</a>: https://typescript-todoapp-project.netlify.app/
+
+<a href="https://typescript-todoapp-project.netlify.app/">![image](https://user-images.githubusercontent.com/80004058/156457574-27c371d9-f80a-468d-86ba-bb55f97aa454.png)</a>
+
+<a href="https://typescript-todoapp-project.netlify.app/">![image](https://user-images.githubusercontent.com/80004058/156457660-3b2cc44b-2478-4b5a-9e75-81fb46974eb9.png)</a>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
